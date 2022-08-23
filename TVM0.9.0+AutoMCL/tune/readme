@@ -1,1 +1,21 @@
-related files...
+Modify Log
+1.gridsearch_tuner.py------>Index_based_tuner.py(It has been a subclass)
+Inserted: 53,54,72-76 lines
+2.model_based_tuner.py:
+Inserted: 468-773,441-442,36-235,821 lines
+3.reg_model_optimizer.py:
+Inserted into file folder directly.
+4.sa_model_optimizer.py:
+Inserted: 75,78-80 lines.
+5.tuner.py:
+Inserted： 46，58-59，95-294，332 lines.
+6.xgboost_cost_model.py:
+Inserted: 101-105,205,130-140,216-217,254-280,329,334,368 lines.
+7.xgboost_tunner.py:
+modified: sa--->reg
+Inserted: 93,96-97 lines.
+
+
+**Note:all the line numbers are based on the modified files.
+You can compare these files with those in AutoMCL & TVM0.9.
+These files are only modified files.They are not the final version.
