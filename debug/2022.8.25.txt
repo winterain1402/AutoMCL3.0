@@ -1,0 +1,3 @@
+1.autoschedule的问题，由于scikit learn版本问题，clf.model需要重新训练，重新训练需要修改训练文件。重新训练后的clf.model拷贝到tuner文件夹。
+2.端到端和算子调优对M，N，K的格式要求不一致，目前需要手动修改文件model_based_tuner.py里面的initconfigspace,filterspace,这个需要对这个文件的相关函数追加一个额外参数来控制算子还是端到端
+3.autoschedule里面，tuneMCL,self.task.name的名字在0.6和0.9里面不一样，目前只是临时方案。是否可以确定这里的task就对应nn.dense。
