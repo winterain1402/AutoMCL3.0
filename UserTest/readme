@@ -1,5 +1,0 @@
-I have run the code from_mxnet.py on tvm0.9 but failed.error is in  python API.
-In get_network function,gluon.SymbolBlock.imports(symbol_file=file_predix+network+'-symbol.json',
-symbol_file has error.
-I opened python site-package but can't search out the error.
-So,I upload the error file.
